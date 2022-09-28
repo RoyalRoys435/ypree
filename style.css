@@ -1,0 +1,84 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.maindiv{
+  width:100%;
+  padding:10px;
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  flex-direction:row;
+  align-content: center;
+  justify-content: center;
+  }
+.imagediv{
+  flex:0 0 33.33%;
+  margin-top:50px;
+  
+}
+.imagediv img{
+  height: 100%; 
+  width: 100%; 
+  object-fit: contain;
+  
+}
+.imagediv .contentdiv{
+  display:flex;
+  position: relative;
+  padding-bottom:20px;
+  
+  
+}
+.contentdiv .profile-pic{
+  width:70px;
+  height:25px;
+  margin-bottom:10px;
+  
+} 
+.text-part{
+  position: absolute;
+  left: 60px;
+  top: 5px;
+}
+.text-part p{
+font-weight:bold ;
+}
+.contentdiv .profile-pic img{
+   
+  width: 100%; 
+  object-fit: contain;
+  border-radius:50%;
+  clip-path:circle();
+}
+.contentdiv .profile-pic ion-icon{
+  position:absolute;
+  right:20px;
+}
+.icons{
+  position:absolute;
+  bottom:0;
+  margin-top:10px;
+  font-size:18px;
+  left:20px;
+  
+}
+.ypree-left{
+  background:#DBF8FE;
+  border:1px solid #ACACAC;
+  position:absolute;
+  right:20px;
+  bottom:0;
+  width:60px;
+  padding:5px;
+  border-radius:10px;
+  text-align:center;
+  font-weight:700;
+  color:#ACACAC;
+}
+.ypree-left span{
+  color:black;
+  font-style:italic
+}
